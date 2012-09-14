@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+
+<meta charset="utf-8">
+
+<title>guessLanguage.js test runner</title>
+
+<link rel="stylesheet" href="../vendor/mocha/mocha.css" type="text/css" />
+
+<script src="../vendor/mocha/mocha.js"></script>
+<script src="./assert.js"></script>
+
+<script>mocha.setup('bdd')</script>
+
+<script src="../lib/_languageData.js"></script>
+<script src="../lib/guessLanguage.js"></script>
+<script src="./test.guessLanguage.js"></script>
+
+<div id="mocha"></div>
+
+<script>
+  mocha.run()
+</script>

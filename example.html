@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<title>guessLanguage.js library demo</title>
+
+<style type="text/css">
+  body {
+    font-family: Tahoma, sans-serif;
+  }
+
+  textarea#input {
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+  }
+
+  div#output {
+    color: #CC0000;
+  }
+</style>
+
+<h1>guessLanguage.js library demo</h1>
+
+<script src="./lib/_languageData.js"></script>
+<script src="./lib/guessLanguage.js"></script>
+
+<p>Enter some text below to try this library:</p>
+
+<textarea id="input">Type some text here!</textarea>
+
+<div id="output"></div>
+
+<script>
+var inputEl = document.getElementById('input'),
+    outputEl = document.getElementById('output');
+
+inputEl.addEventListener('keyup', function() {
+
+  guessLanguage.info(this.value, function(info) {
+    outputEl.textContent = 'Detected Language: ' + info[2] + " [" + info[0] + "]";
+  });
+
+}, false);
+</script>

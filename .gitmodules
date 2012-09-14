@@ -1,0 +1,3 @@
+[submodule "vendor/mocha"]
+	path = vendor/mocha
+	url = git://github.com/visionmedia/mocha.git
