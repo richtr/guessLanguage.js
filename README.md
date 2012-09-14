@@ -9,17 +9,17 @@ You can clone this repo as follows:
 
     git clone git@github.com:richtr/guessLanguage.js.git
 
-You can use this library in a web browser as follows:
+You can use this library in a web page as follows:
 
-    &lt;script src=&quot;lib/_languageData.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;lib/guessLanguage.js&quot;&gt;&lt;/script&gt;
-    &lt;script&gt;
+    <script src=&quot;lib/_languageData.js&quot;></script>
+    <script src=&quot;lib/guessLanguage.js&quot;></script>
+    <script>
       guessLanguage.detect('...input text here...', function(language) {
         console.log('Detected language of provided text is [' + language + ']');
       });
-    &lt;/script&gt;
+    </script>
 
-You can use this library in your Node.js project as follows (npm package coming soon!):
+You can use this library in a Node.js project as follows (npm package coming soon!):
 
     var guessLanguage = require('./lib/guessLanguage');
 
@@ -29,6 +29,6 @@ You can use this library in your Node.js project as follows (npm package coming 
 
 #### Feedback ####
 
-Please note this library is in the early stages of development. If you find any bugs or issues please file them on this project directly.
+Please note this library is in the early stages of development. If you find any bugs or issues please file them on this project and I'll take a look.
 
 Please also feel free to catch me on Twitter [@richtibbett](http://twitter.com/richtibbett/).
