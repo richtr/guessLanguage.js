@@ -73,25 +73,22 @@ var tests = [
   ["", "unknown"],
 ];
 
-//describe("id", function() {
-  
-  for(var ii = 0, l = tests.length; ii < l; ii++) {
-    
-    var test = tests[ii];
-    describe('Guess Language ID [' + test[1] + ']', function() {
-    
-      it('Language is [' + test[1] + ']', function(done) {
-        guessLanguage.detect(test[0], function(id) {
-          assert.equal(test[1], id);
-          done();
-        });
+function IdTest(obj) {
+  describe('Guess Language ID [' + obj[1] + ']', function() {
+    it('Language is [' + obj[1] + ']', function(done) {
+      guessLanguage.detect(obj[0], function(id) {
+        assert.equal(obj[1], id);
+        done();
       });
-      
     });
-    
-  }
+  });
+}
+
+for(var ii = 0, l = tests.length; ii < l; ii++) {
   
-//});
+  new IdTest(tests[ii]);
+  
+}
 
 var text = "Vérifions que le détecteur de langue fonctionne."
 
