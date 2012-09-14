@@ -11,8 +11,8 @@ You can clone this repo as follows:
 
 You can use this library in a web page as follows:
 
-    <script src=&quot;lib/_languageData.js&quot;></script>
-    <script src=&quot;lib/guessLanguage.js&quot;></script>
+    <script src="lib/_languageData.js"></script>
+    <script src="lib/guessLanguage.js"></script>
     <script>
       guessLanguage.detect('...input text here...', function(language) {
         console.log('Detected language of provided text is [' + language + ']');
