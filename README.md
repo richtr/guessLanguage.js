@@ -19,7 +19,11 @@ You can use this library in a web page as follows:
       });
     </script>
 
-You can use this library in a Node.js project as follows (npm package coming soon!):
+You can use this library in a Node.js project. This library is available as an npm package:
+
+    sudo npm install -g guesslanguage
+
+Using this library in a Node.js project can be done as follows:
 
     var guessLanguage = require('./lib/guessLanguage');
 
