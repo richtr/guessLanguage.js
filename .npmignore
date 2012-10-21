@@ -1,0 +1,6 @@
+/.npmignore
+/.gitignore
+/Makefile
+/example.html
+/test/
+/vendor/
