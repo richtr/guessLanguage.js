@@ -31,6 +31,75 @@ Using this library in a Node.js project can be done as follows:
       console.log('Detected language of provided text is [' + language + ']');
     });
 
+#### Languages supported: 62 ####
+Sorted by BCP 47 Language code
+
+* "af": Afrikaans
+* "ar": Arabic
+* "az": Azerbaijani
+* "bg": Bulgarian
+* "ca": Catalan, Valencian
+* "ceb": Cebuano
+* "cs": Czech
+* "cy": Welsh
+* "da": Danish
+* "de": German
+* "en": English
+* "es": Spanish, Castilian
+* "et": Estonian
+* "eu": Basque
+* "fa": Persian
+* "fi": Finnish
+* "fr": French
+* "ha": Hausa
+* "haw": Hawaiian
+* "hi": Hindi
+* "hr": Croatian
+* "hu": Hungarian
+* "id": Indonesian
+* "is": Icelandic
+* "it": Italian
+* "kk": Kazakh
+* "ky": Kirghiz, Kyrgyz
+* "la": Latin
+* "lt": Lithuanian
+* "lv": Latvian
+* "mk": Macedonian
+* "mn": Mongolian
+* "nb": Norwegian Bokmål
+* "ne": Nepali
+* "nl": Dutch, Flemish
+* "nr": South Ndebele
+* "nso": Pedi, Northern Sotho, Sepedi
+* "pl": Polish
+* "ps": Pushto, Pashto
+* "pt": Portuguese
+* "pt-BR": Portuguese (Brazilian)
+* "pt-PT": Portuguese (Portugal)
+* "ro": Romanian, Moldavian, Moldovan
+* "ru": Russian
+* "sk": Slovak
+* "sl": Slovenian
+* "so": Somali
+* "sq": Albanian
+* "sr": Serbian
+* "ss": Swati
+* "st": Southern Sotho
+* "sv": Swedish
+* "sw": Swahili (macrolanguage)
+* "tl": Tagalog
+* "tlh": Klingon, tlhIngan-Hol
+* "tn": Tswana
+* "tr": Turkish
+* "ts": Tsonga
+* "uk": Ukrainian
+* "ur": Urdu
+* "uz": Uzbek
+* "ve": Venda
+* "vi": Vietnamese
+* "xh": Xhosa
+* "zu": Zulu
+
 #### Feedback ####
 
 Please note this library is in the early stages of development. If you find any bugs or issues please file them on this project and I'll take a look.
