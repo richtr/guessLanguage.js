@@ -31,7 +31,7 @@ Using this library in a Node.js project can be done as follows:
       console.log('Detected language of provided text is [' + language + ']');
     });
 
-#### Languages supported: 62 ####
+#### Languages supported: 65 ####
 Sorted by BCP 47 Language code
 
 * "af": Afrikaans
