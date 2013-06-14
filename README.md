@@ -31,72 +31,107 @@ Using this library in a Node.js project can be done as follows:
       console.log('Detected language of provided text is [' + language + ']');
     });
 
-#### Languages Supported: 65 ####
+#### Languages Supported: 100 ####
 
+* "ab": Abkhazian
 * "af": Afrikaans
 * "ar": Arabic
 * "az": Azerbaijani
+* "be": Belarusian
 * "bg": Bulgarian
+* "bn": Bengali
+* "bo": Tibetan
+* "br": Breton
 * "ca": Catalan, Valencian
 * "ceb": Cebuano
 * "cs": Czech
 * "cy": Welsh
 * "da": Danish
 * "de": German
+* "el": Modern Greek
 * "en": English
+* "eo": Esperanto
 * "es": Spanish, Castilian
 * "et": Estonian
 * "eu": Basque
 * "fa": Persian
 * "fi": Finnish
+* "fo": Faroese
 * "fr": French
+* "fy": Western Frisian
+* "gd": Scottish Gaelic, Gaelic
+* "gl": Galician
+* "gu": Gujarati
 * "ha": Hausa
 * "haw": Hawaiian
+* "he": Hebrew
 * "hi": Hindi
 * "hr": Croatian
 * "hu": Hungarian
+* "hy": Armenian
 * "id": Indonesian
 * "is": Icelandic
 * "it": Italian
+* "ja": Japanese
+* "ka": Georgian
 * "kk": Kazakh
+* "km": Central Khmer
+* "kn": Kannada
+* "ko": Korean
+* "ku": Kurdish
 * "ky": Kirghiz, Kyrgyz
 * "la": Latin
+* "lo": Lao
 * "lt": Lithuanian
 * "lv": Latvian
+* "mg": Malagasy
 * "mk": Macedonian
+* "ml": Malayalam
 * "mn": Mongolian
-* "nb": Norwegian Bokmål
+* "mr": Marathi
+* "ms": Malay (macrolanguage)
+* "nd": North Ndebele
 * "ne": Nepali
 * "nl": Dutch, Flemish
-* "nr": South Ndebele
+* "nn": Norwegian Nynorsk
+* "no": Norwegian
 * "nso": Pedi, Northern Sotho, Sepedi
+* "or": Oriya
+* "pa": Panjabi, Punjabi
 * "pl": Polish
 * "ps": Pushto, Pashto
 * "pt": Portuguese
-* "pt-BR": Portuguese (Brazilian)
+* "pt-BR": Portuguese (Brazil)
 * "pt-PT": Portuguese (Portugal)
 * "ro": Romanian, Moldavian, Moldovan
 * "ru": Russian
+* "sa": Sanskrit
+* "sh": Serbo-Croatian
+* "si": Sinhala, Sinhalese
 * "sk": Slovak
-* "sl": Slovenian
+* "sl": Slovenian, Slovene
 * "so": Somali
 * "sq": Albanian
 * "sr": Serbian
-* "ss": Swati
-* "st": Southern Sotho
 * "sv": Swedish
 * "sw": Swahili (macrolanguage)
+* "ta": Tamil
+* "te": Telugu
+* "th": Thai
 * "tl": Tagalog
 * "tlh": Klingon, tlhIngan-Hol
-* "tn": Tswana
+* "tn": Tswana, Setswana
 * "tr": Turkish
 * "ts": Tsonga
+* "tw": Twi
 * "uk": Ukrainian
 * "ur": Urdu
 * "uz": Uzbek
 * "ve": Venda
 * "vi": Vietnamese
 * "xh": Xhosa
+* "zh": Chinese
+* "zh-TW" Chinese (Taiwan)
 * "zu": Zulu
 
 #### Feedback ####
