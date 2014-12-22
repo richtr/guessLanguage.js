@@ -85,42 +85,42 @@ function IdTest(obj) {
 }
 
 for(var ii = 0, l = tests.length; ii < l; ii++) {
-  
+
   new IdTest(tests[ii]);
-  
+
 }
 
 var text = "Vérifions que le détecteur de langue fonctionne."
 
 describe('Guess Language Name', function() {
-  
+
   it('Test Guess Language Name', function(done) {
     guessLanguage.name(text, function(name) {
       assert.equal("French", name);
       done();
     });
   });
-  
+
 });
 
 describe('Guess Language Code', function() {
-  
+
   it('Test Guess Language Code', function(done) {
     guessLanguage.code(text, function(code) {
       assert.equal(26150, code);
       done();
     });
   });
-  
+
 });
 
 describe('Guess Language Info', function() {
-  
+
   it('Test Guess Language Info', function(done) {
     guessLanguage.info(text, function(info) {
       assert.deepEqual(["fr", 26150, "French"], info);
       done();
     });
   });
-  
+
 });
