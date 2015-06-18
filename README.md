@@ -15,31 +15,53 @@ You can clone this repo as follows:
 git clone git@github.com:richtr/guessLanguage.js.git
 ```
 
-You can use this library in a web page as follows:
+You can use this library in a web page by including the following files:
 
 ```html
 <script src="lib/_languageData.js"></script>
 <script src="lib/guessLanguage.js"></script>
-<script>
-  guessLanguage.detect('...input text here...', function(language) {
-    console.log('Detected language of provided text is [' + language + ']');
-  });
-</script>
 ```
 
-You can use this library in a Node.js project. This library is available as an npm package:
+You can also use this library in a Node.js project. This library can be installed via [npm](https://www.npmjs.com) as follows:
 
 ```bash
 sudo npm install -g guesslanguage
 ```
 
-Using this library in a Node.js project can be done as follows:
+Including this library for use in a Node.js project can then be done as follows:
 
 ```javascript
 var guessLanguage = require('./lib/guessLanguage');
+// See the API section for usage
+```
 
+#### API ####
+
+You can use guessLanguage.js in any of the following ways:
+
+``` javascript
 guessLanguage.detect('...input text here...', function(language) {
-  console.log('Detected language of provided text is [' + language + ']');
+  console.log('Detected language code of provided text is [' + language + ']');
+});
+```
+
+``` javascript
+guessLanguage.name('...input text here...', function(languageName) {
+  console.log('Detected language name of provided text is [' + languageName + ']');
+});
+```
+
+``` javascript
+guessLanguage.code('...input text here...', function(languageIANA) {
+  console.log('Detected language IANA number of provided text is [' + languageIANA + ']');
+});
+```
+
+``` javascript
+guessLanguage.info('...input text here...', function(languageInfo) {
+  console.log('Detected language code of provided text is [' + languageInfo[0] + ']');
+  console.log('Detected language IANA number of provided text is [' + languageInfo[1] + ']');
+  console.log('Detected language name of provided text is [' + languageInfo[2] + ']');
 });
 ```
 
