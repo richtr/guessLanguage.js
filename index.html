@@ -60,12 +60,12 @@ detectBtn.addEventListener('click', function() {
   var input = inputTxt.value;
 
   // 2. Detect language name via guessLanguage.js
-  guessLanguage.name(input, function(language) {
+  guessLanguage.info(input, function(languageInfo) {
     // 3 .Display output
-    if (language == 'unknown') {
+    if (languageInfo[0] == 'unknown') {
       outputPre.textContent = 'Not enough text has been provided to determine the source language.';
     } else {
-      outputPre.textContent = 'Detected language of provided text is [' + language + ']';
+      outputPre.textContent = 'Detected language of provided text is ' + languageInfo[2] + ' [' + languageInfo[0] + '].';
     }
   });
 
