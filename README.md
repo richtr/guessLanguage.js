@@ -1,7 +1,7 @@
 guessLanguage.js
 ====================
 
-A JavaScript language detection library based on trigram statistical analysis. This library works equally well when run in either the Browser or Node.js.
+A natural language detection library based on trigram statistical analysis. This library is written in JavaScript and works equally well when run in either the Browser or Node.js.
 
 #### Demo ####
 
