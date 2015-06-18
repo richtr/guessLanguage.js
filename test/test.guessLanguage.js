@@ -53,7 +53,7 @@ var tests = [
    "sv"],
   ["Nominasjonskomiteen i Akershus KrF har skviset ut Einar Holstad " +
    "fra stortingslisten. Ytre Enebakk-mannen har plass p Stortinget " +
-   "s lenge Valgerd Svarstad Haugland sitter i", "nb"],
+   "s lenge Valgerd Svarstad Haugland sitter i", "no"],
   ["on julkishallinnon verkkopalveluiden yhteinen osoite. " +
    "Kansalaisten arkielämää helpottavaa tietoa on koottu eri " +
    "aihealueisiin", "fi"],
