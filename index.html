@@ -81,30 +81,50 @@ detectBtn.addEventListener('click', function() {
 <pre><code>git clone git@github.com:richtr/guessLanguage.js.git
 </code></pre>
 
-<p>You can use this library in a web page as follows:</p>
+<p>You can use this library in a web page by including the following files:</p>
 
 <pre><code>&lt;script src="lib/_languageData.js"&gt;&lt;/script&gt;
 &lt;script src="lib/guessLanguage.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-  guessLanguage.detect('...input text here...', function(language) {
-    console.log('Detected language of provided text is [' + language + ']');
-  });
-&lt;/script&gt;
 </code></pre>
 
-<p>You can use this library in a Node.js project. This library is available as an npm package:</p>
+<p>You can also use this library in a Node.js project. This library can be installed via npm as follows:</p>
 
 <pre><code>sudo npm install -g guesslanguage
 </code></pre>
 
-<p>Using this library in a Node.js project can be done as follows:</p>
+<p>Including this library for use in a Node.js project can then be done as follows:</p>
 
 <pre><code>var guessLanguage = require('./lib/guessLanguage');
+// See the API section for usage
+</code></pre>
 
-guessLanguage.detect('...input text here...', function(language) {
-  console.log('Detected language of provided text is [' + language + ']');
+<p>&nbsp;</p>
+
+<h2>API</h2>
+
+<p>You can use guessLanguage.js in any of the following ways:</p>
+
+<pre><code>guessLanguage.detect('...input text here...', function(language) {
+  console.log('Detected language code of provided text is [' + language + ']');
 });
 </code></pre>
+
+<pre><code>guessLanguage.name('...input text here...', function(languageName) {
+  console.log('Detected language name of provided text is [' + languageName + ']');
+});
+</code></pre>
+
+<pre><code>
+guessLanguage.code('...input text here...', function(languageIANA) {
+  console.log('Detected language IANA number of provided text is [' + languageIANA + ']');
+});
+</code></pre>
+
+<pre><code>guessLanguage.info('...input text here...', function(languageInfo) {
+  console.log('Detected language code of provided text is [' + languageInfo[0] + ']');
+  console.log('Detected language IANA number of provided text is [' + languageInfo[1] + ']');
+  console.log('Detected language name of provided text is [' + languageInfo[2] + ']');
+});</code></pre>
 
 <p>&nbsp;</p>
 
