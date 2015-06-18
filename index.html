@@ -59,15 +59,15 @@ detectBtn.addEventListener('click', function() {
   // 1. Get the input text
   var input = inputTxt.value;
 
-  if (input.length < 50) {
-    outputPre.textContent = 'Not enough text has been provided to determine the source language.';
-  } else {
-    // 2. Detect language name via guessLanguage.js
-    guessLanguage.name(input, function(language) {
-      // 3 .Display output
+  // 2. Detect language name via guessLanguage.js
+  guessLanguage.name(input, function(language) {
+    // 3 .Display output
+    if (language == 'unknown') {
+      outputPre.textContent = 'Not enough text has been provided to determine the source language.';
+    } else {
       outputPre.textContent = 'Detected language of provided text is [' + language + ']';
-    });
-  }
+    }
+  });
 
   outputPre.style.visibility = "visible";
 }, false);
