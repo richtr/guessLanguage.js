@@ -3,6 +3,10 @@ guessLanguage.js
 
 A JavaScript language detection library based on trigram statistical analysis. This library works equally well when run in either the Browser or Node.js.
 
+#### Demo ####
+
+An online demo is available [here](http://richtr.github.com/guessLanguage.js/).
+
 #### Usage ####
 
 You can clone this repo as follows:
